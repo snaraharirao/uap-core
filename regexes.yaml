@@ -2671,7 +2671,7 @@ device_parsers:
     device_replacement: '$1'
     brand_replacement: 'Google'
     model_replacement: '$1'
-  - regex: '; {0,2}(Pixel.{0,200}?)(?: Build|\) AppleWebKit)'
+  - regex: '; {0,2}(Google)(?i)? (Pixel.{0,200}?)(?: Build|\) AppleWebKit)'
     device_replacement: '$1'
     brand_replacement: 'Google'
     model_replacement: '$1'
